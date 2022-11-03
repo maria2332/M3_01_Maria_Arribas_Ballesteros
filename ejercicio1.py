@@ -15,9 +15,18 @@ class alumno(): #Creamos la clase alumno
             print("Ha aprobado")
         return
 
-primero = alumno("Pedro", "10") #Instancia
-#Llamamos al método
-primero.constructor() 
-primero.calificacion()
+alumno1 = alumno("Pedro", "4") #Instancia
+alumno2 = alumno("Cristina", "10") 
+alumno3 = alumno("Lucia", "10") 
 
+
+#Llamamos al método
+alumno1.constructor() 
+alumno1.calificacion()
+
+alumno2.constructor() 
+alumno2.calificacion()
+
+alumno3.constructor() 
+alumno3.calificacion()
     
