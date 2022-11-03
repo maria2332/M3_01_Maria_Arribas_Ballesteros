@@ -1,5 +1,5 @@
 class alumno(): #Creamos la clase alumno
-    def _init_(self, nombre, nota):
+    def __init__(self, nombre, nota):
         self.nombre = nombre # Definimos que el atributo nombre, sera el nombre asignado
         self.nota = nota # Definimos que el atributo nota, sera la nota asignada
         print 
