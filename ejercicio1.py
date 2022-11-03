@@ -8,6 +8,16 @@ class alumno(): #Creamos la clase alumno
         alumno = ("Hola soy {} y mi nota es un {}") #Mensaje
         print(alumno.format(self.nombre, self.nota)) #Usamos FORMAT
 
+    def calificacion(self):
+        if int(self.nota) < 5:
+            print("Ha suspendido")
+        else :
+            print("Ha aprobado")
+        return
+
 primero = alumno("Pedro", "10") #Instancia
 #Llamamos al método
 primero.constructor() 
+primero.calificacion()
+
+    
