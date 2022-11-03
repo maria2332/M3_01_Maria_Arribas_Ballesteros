@@ -5,7 +5,7 @@ class alumno(): #Creamos la clase alumno
         print 
     
     def constructor(self):
-        alumno = ("Hola soy {} y mi nota es {}") #Mensaje
+        alumno = ("Hola soy {} y mi nota es un {}") #Mensaje
         print(alumno.format(self.nombre, self.nota)) #Usamos FORMAT
 
 primero = alumno("Pedro", "10") #Instancia
