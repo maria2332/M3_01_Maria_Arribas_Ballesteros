@@ -25,7 +25,16 @@ class producto(): #Creamos la clase alumno
 
     def __str__(self): 
         return "Lo que quiero mostrar"
-    
+
+#Instancia
 producto1 = producto("hfytd233", "cacao", "10", "chocolate", )
+producto2 = producto("das3", "manzana", "3", "fruta", )
+producto3 = producto("oitej3", "solomillo", "30", "carne", )
+
+#Llamamos al método
 producto1.constructor()
 producto1.__str__()
+producto2.constructor()
+producto2.__str__()
+producto3.constructor()
+producto3.__str__()

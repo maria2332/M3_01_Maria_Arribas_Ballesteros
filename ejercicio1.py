@@ -28,7 +28,8 @@ class alumno(): #Creamos la clase alumno
             print("Ha aprobado")
         return
 
-alumno1 = alumno("Pedro", "4") #Instancia
+#Instancia
+alumno1 = alumno("Pedro", "4") 
 alumno2 = alumno("Cristina", "10") 
 alumno3 = alumno("Lucia", "10") 
 
