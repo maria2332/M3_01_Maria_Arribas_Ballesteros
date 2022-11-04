@@ -10,3 +10,22 @@ Experimentación
 Crea algunos productos
 Prueba a mostrar los datos de algun producto y a modificar algun valor, por ejemplo, prueba a modificar el precio de un producto
 """
+
+class producto(): #Creamos la clase alumno
+    def __init__(self, codigo, nombre, precio, tipo):
+        self.codigo = codigo # Definimos que el atributo codigo, sera el codigo asignado
+        self.nombre = nombre # Definimos que el atributo nombre, sera el nombre asignado
+        self.precio = precio # Definimos que el atributo precio, sera el precio asignado
+        self.tipo = tipo # Definimos que el atributo nombre, sera el tipo asignado
+        print 
+    
+    def constructor(self):
+        producto = ("El producto es {} , cuesta {} euros, su tipo es {} y su codigo es {}") #Mensaje
+        print(producto.format(self.nombre, self.precio, self.tipo, self.codigo)) #Usamos FORMAT
+
+    def __str__(self): 
+        return "Lo que quiero mostrar"
+    
+producto1 = producto("cacao", "10", "chocolate", "hfytd233", )
+producto1.constructor()
+producto1.__str__()
