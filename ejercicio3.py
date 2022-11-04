@@ -20,12 +20,12 @@ class producto(): #Creamos la clase alumno
         print 
     
     def constructor(self):
-        producto = ("El producto es {} , cuesta {} euros, su tipo es {} y su codigo es {}") #Mensaje
+        producto = ("El producto es {}, cuesta {} euros, su tipo es {} y su codigo es {}") #Mensaje
         print(producto.format(self.nombre, self.precio, self.tipo, self.codigo)) #Usamos FORMAT
 
     def __str__(self): 
         return "Lo que quiero mostrar"
     
-producto1 = producto("cacao", "10", "chocolate", "hfytd233", )
+producto1 = producto("hfytd233", "cacao", "10", "chocolate", )
 producto1.constructor()
 producto1.__str__()
