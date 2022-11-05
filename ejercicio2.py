@@ -13,6 +13,9 @@ Crea algun objeto de la clase Alumno
 Realiza print de esos objetos para visualizar por pantalla la información del str
 """
 
+from ast import main
+
+
 class alumno(): #Creamos la clase alumno
     def __init__(self, nombre, nota):
         self.nombre = nombre # Definimos que el atributo nombre, sera el nombre asignado
@@ -44,3 +47,5 @@ alumno2.calificacion()
 alumno3.__str__()
 alumno3.calificacion()
     
+if __name__ == "__main__":
+    main()

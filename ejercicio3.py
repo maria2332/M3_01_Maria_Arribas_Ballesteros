@@ -11,6 +11,9 @@ Crea algunos productos
 Prueba a mostrar los datos de algun producto y a modificar algun valor, por ejemplo, prueba a modificar el precio de un producto
 """
 
+from ast import main
+
+
 class producto(): #Creamos la clase alumno
     def __init__(self, codigo, nombre, precio, tipo):
         self.codigo = codigo # Definimos que el atributo codigo, sera el codigo asignado
@@ -38,3 +41,6 @@ producto3.__str__()
 producto3.precio = 25 #Modifico el precio del producto 3
 
 producto3.__str__()
+
+if __name__ == "__main__":
+    main()
