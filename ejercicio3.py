@@ -24,9 +24,11 @@ class producto(): #Creamos la clase alumno
         print(producto.format(self.nombre, self.precio, self.tipo, self.codigo)) #Usamos FORMAT
 
 #Instancia
-producto1 = producto("hfytd233", "cacao", "10", "chocolate", )
-producto2 = producto("das3", "manzana", "3", "fruta", )
-producto3 = producto("oitej3", "solomillo", "30", "carne", )
+producto1 = producto("hfytd233", "cacao", "10", "chocolate")
+producto2 = producto("das3", "manzana", "3", "fruta")
+producto3 = producto("oitej3", "solomillo", "30", "carne")
+
+producto3_2 = producto3[2] = "25"
 
 #Llamamos al método
 producto1.__str__()
@@ -34,3 +36,5 @@ producto1.__str__()
 producto2.__str__()
 
 producto3.__str__()
+
+producto3_2.__str__()

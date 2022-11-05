@@ -19,9 +19,9 @@ class alumno(): #Creamos la clase alumno
         
     def calificacion(self):
         if int(self.nota) < 5:
-            print("Ha suspendido")
+            print("{} ha suspendido".format(self.nombre))
         else :
-            print("Ha aprobado")
+            print("{} ha aprobado".format(self.nombre))
         return
 
 #Instancia
