@@ -11,6 +11,9 @@ Crea algunos alumnos
 Prueba a ejecutar el método calificacion de cada objeto que has creado
 """
 
+from ast import main
+
+
 class alumno(): #Creamos la clase alumno
     def __init__(self, nombre, nota):
         self.nombre = nombre # Definimos que el atributo nombre, sera el nombre asignado
@@ -35,4 +38,7 @@ alumno1.calificacion()
 alumno2.calificacion()
 
 alumno3.calificacion()
+
+if __name__ == "__main__":
+    main()
     
