@@ -15,7 +15,7 @@ class alumno(): #Creamos la clase alumno
     def __init__(self, nombre, nota):
         self.nombre = nombre # Definimos que el atributo nombre, sera el nombre asignado
         self.nota = nota # Definimos que el atributo nota, sera la nota asignada 
-        print 
+        print ("El alumno se ha creado con éxito")
         
     def calificacion(self):
         if int(self.nota) < 5:
@@ -28,7 +28,6 @@ class alumno(): #Creamos la clase alumno
 alumno1 = alumno("Pedro", "4") 
 alumno2 = alumno("Cristina", "10") 
 alumno3 = alumno("Lucia", "10") 
-
 
 #Llamamos al método
 alumno1.calificacion()

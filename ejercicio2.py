@@ -34,7 +34,6 @@ alumno1 = alumno("Pedro", "4")
 alumno2 = alumno("Cristina", "10") 
 alumno3 = alumno("Lucia", "10") 
 
-
 #Llamamos al método
 alumno1.__str__()
 alumno1.calificacion()

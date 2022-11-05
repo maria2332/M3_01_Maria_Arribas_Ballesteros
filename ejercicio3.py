@@ -17,14 +17,11 @@ class producto(): #Creamos la clase alumno
         self.nombre = nombre # Definimos que el atributo nombre, sera el nombre asignado
         self.precio = precio # Definimos que el atributo precio, sera el precio asignado
         self.tipo = tipo # Definimos que el atributo nombre, sera el tipo asignado
-        print 
+        print ("El producto se ha creado con éxito")
     
-    def constructor(self):
+    def __str__(self):
         producto = ("El producto es {}, cuesta {} euros, su tipo es {} y su codigo es {}") #Mensaje
         print(producto.format(self.nombre, self.precio, self.tipo, self.codigo)) #Usamos FORMAT
-
-    def __str__(self): 
-        return "Lo que quiero mostrar"
 
 #Instancia
 producto1 = producto("hfytd233", "cacao", "10", "chocolate", )
@@ -32,9 +29,8 @@ producto2 = producto("das3", "manzana", "3", "fruta", )
 producto3 = producto("oitej3", "solomillo", "30", "carne", )
 
 #Llamamos al método
-producto1.constructor()
 producto1.__str__()
-producto2.constructor()
+
 producto2.__str__()
-producto3.constructor()
+
 producto3.__str__()
